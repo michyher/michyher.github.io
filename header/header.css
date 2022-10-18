@@ -197,3 +197,6 @@ nav li:nth-of-type(5) a:hover,
   }
 }
 /* END MEDIA */
+html {
+  scroll-behavior: smooth;
+}
