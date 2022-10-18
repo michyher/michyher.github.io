@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="hover-card-effect(project section)/hover-card-effect.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>Michy's Portfolio</title>
 
     <link rel="stylesheet" href="portfolio.css" />
@@ -12,6 +21,8 @@
   </head>
 
   <body>
+    
+    <!-- HERO SECTION -->
     <section class="hidden">
       <div onclick="hi()">
         <h1>Michelle Herrera</h1>
@@ -19,7 +30,8 @@
       </div>
     </section>
 
-    <section class="hidden">
+    <!-- ABOUT SECTION -->
+    <section  class="hidden">
       <h1>About</h1>
       <p>
         ck foot to clean it but foot reflexively kicks you in face, go into a
@@ -33,21 +45,55 @@
         tasty moths.
       </p>
     </section>
-    <section class="hidden">
-      <h1>Projects</h1>
-      <table>
-        <tr>
-          <td>Project 1</td>
-          <td>Project 2</td>
-          <td>Project 3</td>
-        </tr>
-        <tr>
-          <td>Project 4</td>
-          <td>Project 5</td>
-          <td>Project 6</td>
-        </tr>
-      </table>
+
+    <!-- PROJECT SECTION -->
+    <section  class="hidden">
+      <div class="card-swiper">
+        <div class="card-groups">
+          <div class="card-group" data-index="0" data-status="active">
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+          </div>
+          <div class="card-group" data-index="1" data-status="unknown">
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+          </div>
+          <div class="card-group" data-index="2" data-status="unknown">
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+          </div>
+        </div>
+
+        <div class="card-swiper-buttons">
+          <button id="left-button" onclick="handleLeftClick()">
+            <i class="fa fa-arrow-left"></i>
+          </button>
+          <button id="right-button" onclick="handleRightClick()">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
     </section>
+
+    <!-- CONTACT SECTION -->
     <section class="hidden">
       <h1>Contact</h1>
       <form>
@@ -57,6 +103,7 @@
         <input type="text" id="lname" name="lname" />
       </form>
     </section>
-    <script src="portfolio.js"></script>
   </body>
+  <script src="portfolio.js"></script>
+  <script src="hover-card-effect(project section)/hover-card-effect.js"></script>
 </html>

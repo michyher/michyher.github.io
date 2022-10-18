@@ -4,6 +4,10 @@
 } */
 
 
+
+
+
+/* HOVER CARD EFFECT (PROJECT SECTION) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
     background-color: #131316;
@@ -11,7 +15,10 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
+
+
 
 section {
     display: grid;
@@ -38,3 +45,5 @@ section {
     filter: blur(0);
     transform: translateX(0);
 }
+
+
