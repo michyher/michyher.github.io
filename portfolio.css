@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 body {
-  background-color: #131316;
+  background-color: #613106;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -32,4 +32,8 @@ section {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+.about {
+  @import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@300&display=swap');
 }

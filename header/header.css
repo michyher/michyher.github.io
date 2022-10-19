@@ -12,7 +12,11 @@ a,
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: #ffffff;
+}
+.topheader {
+  background-color: #B25F14;
+  width: 200%;
 }
 /* body {
   background: linear-gradient(
@@ -50,8 +54,9 @@ p {
 }
 
 .container {
-  max-width: 90%;
-  margin: 0 auto;
+  max-width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 /* NAVIGATION */
@@ -149,6 +154,8 @@ nav li:nth-of-type(5) a:hover,
   flex-wrap: wrap-reverse;
   align-items: center;
   min-height: calc(100vh - 93px);
+  background-image: url("../media/stripes.png");
+  background-size: cover;
 }
 
 .hero > * {
