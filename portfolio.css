@@ -36,4 +36,35 @@ section {
 
 .about {
   @import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@300&display=swap');
+  gap: 2em;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  min-height: calc(100vh - 93px);
+  background-image: url("media/aboutbackground2.png");
+  background-size: cover;
+}
+
+.project {
+  gap: 2em;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  min-height: calc(100vh - 93px);
+  background-image: url("media/projectsbackground2.png");
+  background-size: cover;
+}
+
+.contacts {
+  gap: 2em;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  min-height: calc(100vh - 93px);
+  background-image: url("media/contactsection2.png");
+  background-size: cover;
+}
+
+.textabout {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
