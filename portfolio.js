@@ -10,3 +10,5 @@ var observer = new IntersectionObserver((entries) => {
 
 var hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+var hiddenElements = document.querySelectorAll(".springHidden");
+hiddenElements.forEach((el) => observer.observe(el));
